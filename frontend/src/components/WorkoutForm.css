@@ -1,0 +1,45 @@
+.workoutForm {
+    flex: 0.4;
+}
+
+.workoutForm form {
+    width: 360px;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px 15px;
+    border-radius: 4px;
+}
+
+form label, span, input {
+    display: block;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+form span {
+    color: #555;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+form input {
+    padding: 7px 8px;
+    outline:none;
+}
+
+form button{
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    color: #ffffff;
+    background: linear-gradient(lightgreen,#1aa37a);
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 14px;
+}

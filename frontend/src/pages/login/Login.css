@@ -1,0 +1,9 @@
+.login-form{
+    max-width: 380px;
+    margin: 90px auto;
+    background: #ffffff;
+    padding: 20px;
+}
+.login-form > form > h2{
+  margin-bottom: 25px;
+}
